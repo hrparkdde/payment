@@ -20,6 +20,7 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	implementation group: 'org.springframework', name: 'spring-tx'
+	implementation group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5'
 }
 
 test {
